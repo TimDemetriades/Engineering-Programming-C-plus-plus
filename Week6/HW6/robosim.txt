@@ -1,0 +1,27 @@
+// Specifictions for Robot Simulation Assignment
+
+vec_3d
+
+robot
+    vec_3d location
+    vec_3d estlocation
+
+beacon
+    vec_3d location 
+    vec_3d estlocation
+    double rangeError
+
+tank inherits from robot
+    length
+    width           // rotation = different in speed / width
+    two threads
+
+submarine inherits robot
+
+airplane inherits from robot
+
+quadcopter inherits from robot
+
+car inherits from robot
+
+boat inherits from robot
